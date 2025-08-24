@@ -1,0 +1,106 @@
+$date
+   Mon Aug 25 01:12:20 2025
+$end
+
+$version
+  2024.2.0
+  $dumpfile ("waveform.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module full_adder_tb $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # Cin $end
+$var wire 1 $ Sum $end
+$var wire 1 % Carry $end
+$scope module uut $end
+$var wire 1 & InputA $end
+$var wire 1 ' InputB $end
+$var wire 1 ( InputCarry $end
+$var wire 1 $ SumOut $end
+$var wire 1 % CarryOut $end
+$var wire 1 ) Sout1 $end
+$var wire 1 * Cout2 $end
+$var wire 1 + Cout1 $end
+$scope module HA1 $end
+$var wire 1 & InputA $end
+$var wire 1 ' InputB $end
+$var wire 1 ) SumOut $end
+$var wire 1 + CarryOut $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 ) InputA $end
+$var wire 1 ( InputB $end
+$var wire 1 $ SumOut $end
+$var wire 1 * CarryOut $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+$end
+
+#10000
+1#
+1$
+1(
+
+#20000
+1"
+0#
+1$
+1'
+0(
+1)
+
+#30000
+1#
+0$
+1%
+1(
+1*
+
+#40000
+1!
+0"
+0#
+1$
+0%
+1&
+0'
+0(
+0*
+
+#50000
+1#
+0$
+1%
+1(
+1*
+
+#60000
+1"
+0#
+0$
+1'
+0(
+0)
+0*
+1+
