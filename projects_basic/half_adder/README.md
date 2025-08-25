@@ -59,6 +59,7 @@ The Half Adder was successfully implemented and verified through simulation. The
 - Document synthesis results and timing analysis for hardware implementation.
 
 <br>
-<br>
-<center>keep Learning</center>
-<center><b>Thank you</b></center>
+<p align="center">
+  <b><font size="6">Keep Learning</font></b><br>
+  <b><font size="5">Thank You</font></b>
+</p>
