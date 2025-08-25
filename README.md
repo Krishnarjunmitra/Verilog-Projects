@@ -6,11 +6,19 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
   <img src="https://img.shields.io/github/stars/Krishnarjunmitra/Verilog-Projects?style=social"/>
   <img src="https://img.shields.io/github/forks/Krishnarjunmitra/Verilog-Projects?style=social"/>
+  <img src="https://img.shields.io/github/issues/Krishnarjunmitra/Verilog-Projects?style=flat-square" alt="GitHub Issues"/>
+  <img src="https://img.shields.io/github/license/Krishnarjunmitra/Verilog-Projects?style=flat-square" alt="License"/>
+  <a href="https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2FKrishnarjunmitra%2FVerilog-Projects">
+    <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FKrishnarjunmitra%2FVerilog-Projects" alt="Share on Twitter"/>
+  </a>
 </p>
 
 ---
-
 ## 🧠 About the Repository
+
+<table>
+<tr>
+<td width="65%" valign="top">
 
 **Verilog-Projects** is a curated collection of RTL design and verification modules, ranging from **basic logic circuits** (Half Adder, Full Adder) to **advanced system-level blocks** (ALU, UART, RISC CPU).
 
@@ -20,9 +28,25 @@ This repository reflects a **professional VLSI design workflow**, including:
 - 🧪 **Testbenches** (functional verification)  
 - 📊 **Simulation Outputs** (waveforms, truth tables)  
 - 🏗️ **Synthesis Results** (schematics, timing reports)  
-- 📚 **Documentation** (project reports, coding standards, reusable templates)
+- 📚 **Documentation** (project reports, coding standards, reusable templates)  
 
 It’s built to support both a **learning journey** and a **portfolio showcase** for aspiring VLSI engineers.
+
+</td>
+<td width="35%" valign="top">
+
+### 📌 Quick Links
+- [🎯 Objectives](#-objectives)  
+- [📁 Repository Structure](#-repository-structure)  
+- [🚀 Roadmap](#-roadmap)  
+- [💼 Target Audience](#-target-audience)  
+- [✨ Highlights](#-highlights)  
+- [👨‍💻 Author](#-author)  
+- [📜 License](#-license)  
+
+</td>
+</tr>
+</table>
 
 ---
 
