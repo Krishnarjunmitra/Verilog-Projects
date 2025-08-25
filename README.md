@@ -9,12 +9,11 @@
 </p>
 
 ---
-
 ## 🧠 About the Repository
 
 <table>
 <tr>
-<td width="75%" valign="top">
+<td width="65%" valign="top">
 
 **Verilog-Projects** is a curated collection of RTL design and verification modules, ranging from **basic logic circuits** (Half Adder, Full Adder) to **advanced system-level blocks** (ALU, UART, RISC CPU).
 
@@ -29,16 +28,16 @@ This repository reflects a **professional VLSI design workflow**, including:
 It’s built to support both a **learning journey** and a **portfolio showcase** for aspiring VLSI engineers.
 
 </td>
-<td width="25%" valign="top">
+<td width="35%" valign="top">
 
 ### 📌 Quick Links
-- [Objectives](#objectives)  
-- [Repository Structure](#repository-structure)  
-- [Roadmap](#roadmap)  
-- [Target Audience](#target-audience)  
-- [Highlights](#highlights)  
-- [Author](#author)  
-- [License](#license)  
+- [🎯 Objectives](#-objectives)  
+- [📁 Repository Structure](#-repository-structure)  
+- [🚀 Roadmap](#-roadmap)  
+- [💼 Target Audience](#-target-audience)  
+- [✨ Highlights](#-highlights)  
+- [👨‍💻 Author](#-author)  
+- [📜 License](#-license)  
 
 </td>
 </tr>
