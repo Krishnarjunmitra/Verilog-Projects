@@ -32,17 +32,18 @@ It’s built to support both a **learning journey** and a **portfolio showcase**
 <td width="25%" valign="top">
 
 ### 📌 Quick Links
-- [🎯 Objectives](#objectives)  
-- [📁 Repository Structure](#repository-structure)  
-- [🚀 Roadmap](#roadmap)  
-- [💼 Target Audience](#target-audience)  
-- [✨ Highlights](#highlights)  
-- [👨‍💻 Author](#author)  
-- [📜 License](#license)  
+- [Objectives](#objectives)  
+- [Repository Structure](#repository-structure)  
+- [Roadmap](#roadmap)  
+- [Target Audience](#target-audience)  
+- [Highlights](#highlights)  
+- [Author](#author)  
+- [License](#license)  
 
 </td>
 </tr>
 </table>
+
 ---
 
 ## 🎯 Objectives
