@@ -107,7 +107,10 @@ The Half Adder was successfully designed and verified using Verilog. Simulation 
   <li>Perform synthesis and timing analysis for FPGA implementation</li>
 </ul>
 
+<hr>
 <br>
+<p align="center">
+  <b><font size="6">Keep Learning</font></b><br>
+  <b><font size="5">Thank You</font></b>
+</p>
 <br>
-<center>keep Learning</center>
-<center><b>Thank you</b></center>
