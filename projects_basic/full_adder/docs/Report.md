@@ -117,6 +117,11 @@ The Full Adder was successfully designed and verified using Verilog. Simulation 
 </ul>
 
 <br>
+<hr>
 <br>
-<center>keep Learning</center>
-<center><b>Thank you</b></center>
+<p align="center">
+  <b>Keep Learning</b><br>
+  <b>Thank You</b>
+</p>
+<br>
+

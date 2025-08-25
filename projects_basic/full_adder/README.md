@@ -44,7 +44,7 @@ List of source files with short descriptions:
 </table>
 </div>
 
-📄 View full Markdown version: [`sim/full_adder_truth_table.md`](sim/full_adder_truth_table.md)
+📄 View full Truth table: [`sim/full_adder_truth_table.md`](sim/full_adder_truth_table.md)
 
 ## 🖼️ RTL Schematic
 
@@ -67,6 +67,8 @@ List of source files with short descriptions:
 
 The Full Adder was successfully implemented and verified through simulation. By reusing the [`half_adder.v`](../half_adder/src/half_adder.v) module, the design demonstrates hierarchical modularity and efficient project structuring. Simulation results confirm correct functionality across all input cases.
 
+📄 Complete report: [`docs/Report.md`](docs/Report.md)
+
 **Next Steps:**
 
 * Extend the design to a 4-bit Ripple Carry Adder using multiple Full Adders.
@@ -74,6 +76,10 @@ The Full Adder was successfully implemented and verified through simulation. By 
 * Document synthesis results and timing analysis for FPGA implementation.
 
 <br>
+<hr>
 <br>
-<center>keep Learning</center>  
-<center><b>Thank you</b></center>  
+<p align="center">
+  <b>Keep Learning</b><br>
+  <b>Thank You</b>
+</p>
+<br>

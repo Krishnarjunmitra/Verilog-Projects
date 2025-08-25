@@ -35,7 +35,7 @@ List of source files with short descriptions:
 </table>
 </div>
 
-📄 View full Markdown version: [`sim/half_adder_truth_table.md`](sim/half_adder_truth_table.md)
+📄 View full Truth table: [`sim/half_adder_truth_table.md`](sim/half_adder_truth_table.md)
 
 ## 🖼️ RTL Schematic  
 ![Half Adder RTL Schematic](sim/half_adder_schematic.png) <br>
@@ -53,13 +53,19 @@ List of source files with short descriptions:
 ## 📑 Conclusion  
 The Half Adder was successfully implemented and verified through simulation. The waveform confirms expected behavior for all input combinations. This module serves as a foundational building block for more complex arithmetic circuits.
 
+📄 Complete report: [`docs/Report.md`](docs/Report.md)
+
 **Next Steps:**
 - Extend to Full Adder using two Half Adders and an OR gate.
 - Build a 4-bit ripple carry adder.
 - Document synthesis results and timing analysis for hardware implementation.
 
+
+<br>
+<hr>
 <br>
 <p align="center">
-  <b><font size="6">Keep Learning</font></b><br>
-  <b><font size="5">Thank You</font></b>
+  <b>Keep Learning</b><br>
+  <b>Thank You</b>
 </p>
+<br>

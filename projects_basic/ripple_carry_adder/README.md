@@ -41,7 +41,7 @@ List of source files with short descriptions:
 </table>
 </div>
 
-📄 View full Markdown version: [`sim/rca_truth_table.md`](sim/rca_truth_table.md)
+📄 View full Truth table: [`sim/rca_truth_table.md`](sim/rca_truth_table.md)
 
 ## 🖼️ RTL Schematic
 
@@ -64,6 +64,8 @@ List of source files with short descriptions:
 
 The 4-bit Ripple Carry Adder was successfully implemented and verified through simulation. By reusing the [`full_adder.v`](../full_adder/src/full_adder.v) module, the design demonstrates **hierarchical modularity** and **scalable design principles**. Simulation results confirm correct functionality across all test cases.
 
+📄 Complete report: [`docs/Report.md`](docs/Report.md)
+
 **Next Steps:**
 
 * Extend design to 8-bit and 16-bit Ripple Carry Adders.
@@ -71,6 +73,11 @@ The 4-bit Ripple Carry Adder was successfully implemented and verified through s
 * Document synthesis, timing, and FPGA implementation results.
 
 <br>
+<hr>
 <br>
-<center>keep Learning</center>  
-<center><b>Thank you</b></center>  
+<p align="center">
+  <b>Keep Learning</b><br>
+  <b>Thank You</b>
+</p>
+<br>
+

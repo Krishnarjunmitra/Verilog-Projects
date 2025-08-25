@@ -114,6 +114,10 @@ The 4-bit Ripple Carry Adder was successfully designed and verified using Verilo
 </ul>
 
 <br>
+<hr>
 <br>
-<center>keep Learning</center>  
-<center><b>Thank you</b></center>  
+<p align="center">
+  <b>Keep Learning</b><br>
+  <b>Thank You</b>
+</p>
+<br>
