@@ -1,0 +1,25 @@
+source full_adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+        full Adder       
+  A  B  Cin  |  Sum  carry  
+  0  0  0  |   0    0    
+  0  0  1  |   1    0    
+  0  1  0  |   1    0    
+  0  1  1  |   0    1    
+  1  0  0  |   1    0    
+  1  0  1  |   0    1    
+  1  1  0  |   0    1    
+  1  1  1  |   1    1    
+$finish called at time : 80 ns : File "C:/Users/full_adder_tb.v" Line 38
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'full_adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3324.969 ; gain = 2.586
