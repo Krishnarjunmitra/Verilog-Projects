@@ -6,6 +6,11 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
   <img src="https://img.shields.io/github/stars/Krishnarjunmitra/Verilog-Projects?style=social"/>
   <img src="https://img.shields.io/github/forks/Krishnarjunmitra/Verilog-Projects?style=social"/>
+  <img src="https://img.shields.io/github/issues/Krishnarjunmitra/Verilog-Projects?style=flat-square" alt="GitHub Issues"/>
+  <img src="https://img.shields.io/github/license/Krishnarjunmitra/Verilog-Projects?style=flat-square" alt="License"/>
+  <a href="https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2FKrishnarjunmitra%2FVerilog-Projects">
+    <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FKrishnarjunmitra%2FVerilog-Projects" alt="Share on Twitter"/>
+  </a>
 </p>
 
 ---
