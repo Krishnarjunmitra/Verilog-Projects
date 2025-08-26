@@ -115,11 +115,10 @@ Verilog-Projects/
 
 ## 🚀 Roadmap
 
-
 > What's Next:
 
-✅ Ripple carry Adder (4-bit) (RTL + Testbench + Simulation + Docs) <br>
-⬜ Carry Look Ahead Adder (4-bit)
+✅ Carry Look Ahead Adder (4-bit) (RTL + Testbench + Simulation + Docs) <br>
+⬜ MUX (4:1)    `Coming Soon ⟳`
 
 > Overview:
 <div align="center"> 
@@ -128,23 +127,65 @@ Verilog-Projects/
       <tr> <th>Project</th> <th>Status</th> <th>Folder Link</th> <th>Remarks</th> </tr> 
     </thead> 
     <tbody> 
-      <tr> <td><b>Half Adder</b></td> <td>✅Complete</td> <td><a href="./projects_basic/half_adder">📂 half_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Half Adder</b></td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/half_adder">📂 half_adder  ★☆☆</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Full Adder</b></td> <td>✅Complete</td> <td><a href="./projects_basic/full_adder">📂 full_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Full Adder</b></td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/full_adder">📂 full_adder  ★★☆</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>✅Complete</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder ✪</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder</a></td> <td>Coming Soon</td> 
+      <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder ★★☆</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Multiplexer (4:1)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/mux_4to1">📂 mux_4to1</a></td> <td> Next Milestone</td> 
+      <tr> <td><b>Multiplexer (4:1)</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;"><code>📂 mux_4to1 ◔</code></span></td> 
+           <td>✧✧ Next Milestone</td> 
       </tr> 
-      <tr> <td><b>Decoder (3:8)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/decoder_3to8">📂 decoder_3to8</a></td> <td>In Queue</td> 
+      <tr> <td><b>Decoder (3:8)</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 decoder_3to8</span></td> 
+           <td>In Queue</td> 
       </tr> 
-      <tr> <td><b>4-bit ALU</b></td> <td>⬜ Pending</td> <td><code style="color:gray; text-decoration:none;">📂 alu_4bit</code></td> <td>Arithmetic & Logic Core</td> 
+      <tr> <td><b>4-bit ALU</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 alu_4bit</span></td> 
+           <td>Arithmetic & Logic Core</td> 
       </tr> 
-      <tr> <td><b>UART Tx/Rx</b></td> <td>⬜ Pending</td> <td><i style="color:gray; text-decoration:none;">📂 uart_tx_rx</i></td> <td>Serial Communication</td> 
+      <tr> <td><b>Comparator</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 comparator</span></td> 
+           <td>Combinational Logic Block</td> 
       </tr> 
-      <tr> <td><b>16-bit RISC CPU</b></td> <td>⬜ Pending</td> <td><span style="color:gray; text-decoration:none;">📂 risc16_cpu</span></td> <td><b>Ultimate Goal</b></td> 
+      <tr> <td><b>Counter</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 counter</span></td> 
+           <td>Sequential Design</td> 
+      </tr> 
+      <tr> <td><b>UART Tx/Rx</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 uart_tx_rx</span></td> 
+           <td>Serial Communication</td> 
+      </tr> 
+      <tr> <td><b>FIFO</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 fifo</span></td> 
+           <td>Buffering & Data Handling</td> 
+      </tr> 
+      <tr> <td><b>16-bit RISC CPU</b></td> 
+           <td>⬜ Pending</td> 
+           <td><span style="color:gray; text-decoration:none;">📂 risc16_cpu</span></td> 
+           <td><b>Ultimate Goal</b></td> 
       </tr> 
     </tbody> 
   </table> 

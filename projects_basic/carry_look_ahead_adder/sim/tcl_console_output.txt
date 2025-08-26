@@ -1,0 +1,22 @@
+source tb_carry_look_ahead_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time	A	B	Cin	|	Sum	Cout
+--------------------------------------------------
+10000	0000	0000	0	|	0000	0
+20000	0101	0011	0	|	1000	0
+30000	1111	0001	0	|	0000	1
+40000	1010	0101	1	|	0000	1
+50000	1111	1111	1	|	1111	1
+$finish called at time : 50 ns : File "C:/Users/carry_look_ahead_adder_tb.v" Line 32
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_carry_look_ahead_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2269.488 ; gain = 37.570
