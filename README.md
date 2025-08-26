@@ -128,11 +128,11 @@ Verilog-Projects/
       <tr> <th>Project</th> <th>Status</th> <th>Folder Link</th> <th>Remarks</th> </tr> 
     </thead> 
     <tbody> 
-      <tr> <td><b>Half Adder</b></td> <td>✅ Complete</td> <td><a href="./projects_basic/half_adder">📂 half_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Half Adder</b></td> <td>✅Complete</td> <td><a href="./projects_basic/half_adder">📂 half_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Full Adder</b></td> <td>✅ Complete</td> <td><a href="./projects_basic/full_adder">📂 full_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Full Adder</b></td> <td>✅Complete</td> <td><a href="./projects_basic/full_adder">📂 full_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>✅ Complete</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>✅Complete</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder</a></td> <td>Coming Soon</td> 
       </tr> 
