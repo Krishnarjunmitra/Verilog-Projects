@@ -22,6 +22,12 @@ The Ripple Carry Adder (RCA) is a fundamental digital circuit used to perform bi
 The Ripple Carry Adder is designed by chaining <b>n Full Adders</b> together. The logic equations for each Full Adder stage are:
 </p>
 
+---
+
+### 🧮 4-bit RCA Bitwise Representation
+
+<div align="center"> <table border="1" cellpadding="6" cellspacing="0"> <thead> <tr> <th></th> <th>c<sub>2</sub></th> <th>c<sub>1</sub></th> <th>c<sub>0</sub></th> </tr> </thead> <tbody> <tr> <td><b>A</b></td> <td>a<sub>3</sub></td> <td>a<sub>2</sub></td> <td>a<sub>1</sub></td> <td>a<sub>0</sub></td> </tr> <tr> <td><b>B</b></td> <td>b<sub>3</sub></td> <td>b<sub>2</sub></td> <td>b<sub>1</sub></td> <td>b<sub>0</sub></td> </tr> <tr> <td colspan="5"><hr></td> </tr> <tr> <td><b>SUM</b></td> <td>s<sub>3</sub></td> <td>s<sub>2</sub></td> <td>s<sub>1</sub></td> <td>s<sub>0</sub></td> </tr> <tr> <td><b>Carry-out</b></td> <td colspan="4" align="center">C<sub>out</sub></td> </tr> </tbody> </table> </div>
+
 <div align="center">
 <b>SUM<sub>i</sub> = A<sub>i</sub> ⊕ B<sub>i</sub> ⊕ C<sub>in</sub></b><br>
 <b>CARRY<sub>i+1</sub> = A<sub>i</sub>·B<sub>i</sub> + (A<sub>i</sub> ⊕ B<sub>i</sub>)·C<sub>in</sub></b>
@@ -80,6 +86,71 @@ The testbench applies all 16×16 input combinations of two 4-bit operands (A and
   </tbody>
 </table>
 </div>
+
+---
+### 🧮 Worked Example (A=1011, B=0110, Cin=1)
+
+<div align="center">
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Bit 3</th>
+      <th>Bit 2</th>
+      <th>Bit 1</th>
+      <th>Bit 0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Carry-in →</b></td>
+      <td>c<sub>2</sub></td>
+      <td>c<sub>1</sub></td>
+      <td>c<sub>0</sub></td>
+      <td>C<sub>in</sub></td>
+    </tr>
+    <tr>
+      <td><b>A</b></td>
+      <td>a<sub>3</sub>=1</td>
+      <td>a<sub>2</sub>=0</td>
+      <td>a<sub>1</sub>=1</td>
+      <td>a<sub>0</sub>=1</td>
+    </tr>
+    <tr>
+      <td><b>B</b></td>
+      <td>b<sub>3</sub>=0</td>
+      <td>b<sub>2</sub>=1</td>
+      <td>b<sub>1</sub>=1</td>
+      <td>b<sub>0</sub>=0</td>
+    </tr>
+    <tr>
+      <td colspan="5"><hr></td>
+    </tr>
+    <tr>
+      <td><b>SUM</b></td>
+      <td>s<sub>3</sub>=0</td>
+      <td>s<sub>2</sub>=0</td>
+      <td>s<sub>1</sub>=1</td>
+      <td>s<sub>0</sub>=0</td>
+    </tr>
+    <tr>
+      <td><b>Final Carry-out</b></td>
+      <td colspan="4" align="center">C<sub>out</sub> = 1</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+**Bitwise math (LSB→MSB):**
+- Bit0: 1 ⊕ 0 ⊕ 1 → s₀=0, c₀=1  
+- Bit1: 1 ⊕ 1 ⊕ c₀(=1) → s₁=1, c₁=1  
+- Bit2: 0 ⊕ 1 ⊕ c₁(=1) → s₂=0, c₂=1  
+- Bit3: 1 ⊕ 0 ⊕ c₂(=1) → s₃=0, C<sub>out</sub>=1
+
+**Result:**  
+1011₂ + 0110₂ + 1 = **1·0010₂** → **C<sub>out</sub>=1, SUM=0010**.
 
 ---
 
