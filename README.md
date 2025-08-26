@@ -134,7 +134,7 @@ Verilog-Projects/
       </tr> 
       <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>✅Complete</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/carry_look_ahead_adder">📂 Carry_look_ahead_adder</a></td> <td>Coming Soon</td> 
+      <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder</a></td> <td>Coming Soon</td> 
       </tr> 
       <tr> <td><b>Multiplexer (4:1)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/mux_4to1">📂 mux_4to1</a></td> <td> Next Milestone</td> 
       </tr> 
