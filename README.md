@@ -80,8 +80,9 @@ Verilog-Projects/
 │   │   └── README.md             # Project summary
 │   │
 │   ├── full_adder/
-│   ├── mux_4to1/
 │   ├── ripple_carry_adder/
+│   ├── carry_look_ahead_adder/
+│   ├── mux_4to1/
 │   └── decoder_3to8/
 │
 ├── projects_intermediate/                 # Medium-complexity projects
@@ -117,8 +118,8 @@ Verilog-Projects/
 
 > What's Next:
 
-✅ Full Adder (RTL + Testbench + Simulation + Docs)  
-⬜ Ripple carry Adder (4-bit)
+✅ Ripple carry Adder (4-bit) (RTL + Testbench + Simulation + Docs) <br>
+⬜ Carry Look Ahead Adder (4-bit)
 
 > Overview:
 <div align="center"> 
@@ -131,7 +132,9 @@ Verilog-Projects/
       </tr> 
       <tr> <td><b>Full Adder</b></td> <td>✅ Complete</td> <td><a href="./projects_basic/full_adder">📂 full_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
-      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>Coming Soon</td> 
+      <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> <td>✅ Complete</td> <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder</a></td> <td>RTL + Testbench + Simulation + Docs</td> 
+      </tr> 
+      <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder</a></td> <td>Coming Soon</td> 
       </tr> 
       <tr> <td><b>Multiplexer (4:1)</b></td> <td>⬜ Pending</td> <td><a href="./projects_basic/mux_4to1">📂 mux_4to1</a></td> <td> Next Milestone</td> 
       </tr> 
