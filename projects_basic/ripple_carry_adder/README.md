@@ -45,7 +45,18 @@ List of source files with short descriptions:
 
 ## 🖼️ RTL Schematic
 
-![Ripple Carry Adder RTL Schematic](sim/rca_schematic.png) <br>
+<div align="center">
+<b>Ripple Carry Adder Block Diagram Schematic</b>
+<br>
+<img src="./sim/rca_schematic.png" alt="Ripple Carry Adder Block Diagram Schematic" width="90%"/>
+</div>
+<div align="center">
+<b>Ripple Carry Adder RTL Schematic</b>
+<br>
+<img src="./sim/rca_rtl_schematic.jpg" alt="Ripple Carry Adder RTL Schematic" width="90%"/>
+</div>
+<br>
+
 📷 File: [`sim/rca_schematic.png`](sim/rca_schematic.png) <br>
 📄 pdf: [`sim/rca_schematic.pdf`](sim/rca_schematic.pdf)
 
@@ -53,7 +64,18 @@ List of source files with short descriptions:
 
 ## 📈 Simulation Waveform
 
-![Ripple Carry Adder Simulation Waveform](sim/rca_waveform.png) <br>
+<div align="center">
+<b>Ripple Carry Adder Simulation Waveform From Block Diagram</b>
+<br>
+<img src="./sim/rca_waveform.png" alt="Ripple Carry Adder Simulation Waveform From Block Diagram" width="90%"/>
+</div>
+<div align="center">
+<b>Ripple Carry Adder Simulation Waveform From RTL</b>
+<br>
+<img src="./sim/rca_rtl_waveform.png" alt="Ripple Carry Adder Simulation Waveform From RTL" width="90%"/>
+</div>
+<br>
+
 📷 File: [`sim/rca_waveform.png`](sim/rca_waveform.png) <br>
 🌊 Waveform: [`sim/rca_waveform.vcd`](sim/rca_waveform.vcd) <br>
 📄 Console log: [`sim/tcl_console_output.txt`](sim/tcl_console_output.txt)

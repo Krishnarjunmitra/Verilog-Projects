@@ -157,7 +157,12 @@ The testbench applies all 16×16 input combinations of two 4-bit operands (A and
 ### 🖼️ RTL Schematic
 
 <div align="center">
-<img src="../sim/rca_schematic.png" alt="Ripple Carry Adder RTL Schematic" width="600"/>
+<b>Ripple Carry Adder Block Diagram Schematic</b> <br>
+<img src="../sim/rca_schematic.png" alt="Ripple Carry Adder Block Diagram Schematic" width="90%"/>
+</div>
+<div align="center">
+<b>Ripple Carry Adder RTL Schematic</b> <br>
+<img src="../sim/rca_rtl_schematic.jpg" alt="Ripple Carry Adder RTL Schematic" width="90%"/>
 </div>
 
 ---
@@ -165,7 +170,12 @@ The testbench applies all 16×16 input combinations of two 4-bit operands (A and
 ### 📈 Simulation Waveform
 
 <div align="center">
-<img src="../sim/rca_waveform.png" alt="Ripple Carry Adder Simulation Waveform" width="700"/>
+<b>Ripple Carry Adder Simulation Waveform From Block Diagram</b> <br>
+<img src="../sim/rca_waveform.png" alt="Ripple Carry Adder Simulation Waveform From Block Diagram" width="90%"/>
+</div>
+<div align="center">
+<b>Ripple Carry Adder Simulation Waveform From RTL</b> <br>
+<img src="../sim/rca_rtl_waveform.png" alt="Ripple Carry Adder Simulation Waveform From RTL" width="90%"/>
 </div>
 
 ---
