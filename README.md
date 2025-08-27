@@ -87,6 +87,10 @@ Verilog-Projects/
 │
 ├── projects_intermediate/                 # Medium-complexity projects
 │   ├── alu_4bit/
+│   ├── regfile_4x16/
+│   ├── program_counter_16/
+│   ├── instruction_memory/
+│   ├── control_unit/
 │   ├── comparator/
 │   └── counter/
 │
@@ -108,9 +112,8 @@ Verilog-Projects/
 │
 ├── LICENSE
 ├── CODEOWNERS
-└── README.md                     # Main landing page
+└── README.md  
 ```
-
 ---
 
 ## 🚀 Roadmap
@@ -118,7 +121,7 @@ Verilog-Projects/
 > What's Next:
 
 ✅ Decoder (3:8) (RTL + Testbench + Simulation + Docs) <br>
-⬜ 4-bit ALU    `Coming Soon ⟳`
+⬜ 4-bit ALU    `Coming Soon ⟳`   
 
 > Overview:
 <div align="center"> 
@@ -129,69 +132,87 @@ Verilog-Projects/
     <tbody> 
       <tr> <td><b>Half Adder</b></td> 
            <td>✅Complete</td> 
-           <td><a href="./projects_basic/half_adder">📂 half_adder  ★☆☆</a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td><a href="./projects_basic/half_adder">📂 half_adder ★☆☆</a></td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Full Adder</b></td> 
            <td>✅Complete</td> 
-           <td><a href="./projects_basic/full_adder">📂 full_adder  ★★☆</a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td><a href="./projects_basic/full_adder">📂 full_adder ★★☆</a></td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> 
            <td>✅Complete</td> 
-           <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder <span style="color:lightgreen;">✪</span></a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder ✪</a></td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> 
            <td>✅Complete</td> 
            <td><a href="./projects_basic/carry_look_ahead_adder">📂 carry_look_ahead_adder ★★☆</a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Multiplexer (4:1)</b></td> 
            <td>✅Complete</td> 
            <td><a href="./projects_basic/mux_4to1">📂 mux_4to1 ★★</a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Decoder (3:8)</b></td> 
            <td>✅Complete</td> 
            <td><a href="./projects_basic/decoder_3to8" style="color:lightgreen;">📂 decoder_3to8 ★★</a></td> 
-           <td>➣ RTL + Testbench + Simulation + Docs</td> 
+           <td>RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>4-bit ALU</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;"><code>📂 alu_4bit ◔</code></span></td> 
-           <td>✧✧ Next: Arithmetic & Logic Core</td> 
+           <td><code>📂 alu_4bit ◔</code></td> 
+           <td>Arithmetic & Logic Core</td> 
+      </tr> 
+      <tr> <td><b>Register File (4x16-bit)</b></td> 
+           <td>⬜ Pending</td> 
+           <td>📂 regfile_4x16</td> 
+           <td>Storage for CPU registers</td> 
+      </tr> 
+      <tr> <td><b>Program Counter (16-bit)</b></td> 
+           <td>⬜ Pending</td> 
+           <td>📂 program_counter_16</td> 
+           <td>Instruction sequencing</td> 
+      </tr> 
+      <tr> <td><b>Instruction Memory</b></td> 
+           <td>⬜ Pending</td> 
+           <td>📂 instruction_memory</td> 
+           <td>ROM/RAM for CPU</td> 
+      </tr> 
+      <tr> <td><b>Control Unit (FSM)</b></td> 
+           <td>⬜ Pending</td> 
+           <td>📂 control_unit</td> 
+           <td>Finite State Machine</td> 
       </tr> 
       <tr> <td><b>Comparator</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 comparator</span></td> 
-           <td>Combinational Logic Block</td> 
+           <td>📂 comparator</td> 
+           <td>Combinational Logic</td> 
       </tr> 
       <tr> <td><b>Counter</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 counter</span></td> 
+           <td>📂 counter</td> 
            <td>Sequential Design</td> 
       </tr> 
       <tr> <td><b>UART Tx/Rx</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 uart_tx_rx</span></td> 
+           <td>📂 uart_tx_rx</td> 
            <td>Serial Communication</td> 
       </tr> 
       <tr> <td><b>FIFO</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 fifo</span></td> 
+           <td>📂 fifo</td> 
            <td>Buffering & Data Handling</td> 
       </tr> 
       <tr> <td><b>16-bit RISC CPU</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 risc16_cpu</span></td> 
-           <td><b>Ultimate Goal</b></td> 
+           <td>📂 risc16_cpu</td> 
+           <td>Ultimate Goal: Complete CPU Integration</td> 
       </tr> 
     </tbody> 
   </table> 
 </div>
-
----
 
 ## 💼 Target Audience
 
