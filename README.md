@@ -117,8 +117,8 @@ Verilog-Projects/
 
 > What's Next:
 
-✅ MUX (4:1) (RTL + Testbench + Simulation + Docs) <br>
-⬜ Decoder (3:8)    `Coming Soon ⟳`
+✅ Decoder (3:8) (RTL + Testbench + Simulation + Docs) <br>
+⬜ 4-bit ALU    `Coming Soon ⟳`
 
 > Overview:
 <div align="center"> 
@@ -149,18 +149,18 @@ Verilog-Projects/
       </tr> 
       <tr> <td><b>Multiplexer (4:1)</b></td> 
            <td>✅Complete</td> 
-           <td><a href="./projects_basic/mux_4to1" style="color:lightgreen;">📂 mux_4to1 ★★</a></td> 
+           <td><a href="./projects_basic/mux_4to1">📂 mux_4to1 ★★</a></td> 
            <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Decoder (3:8)</b></td> 
-           <td>⬜ Pending</td> 
-           <td><span style="color:yellow; text-decoration:none;"><code>📂 decoder_3to8  ◔</code></span></td> 
-           <td>✧✧ Next Milestone</td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/decoder_3to8" style="color:lightgreen;">📂 decoder_3to8 ★★</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>4-bit ALU</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 alu_4bit</span></td> 
-           <td>Arithmetic & Logic Core</td> 
+           <td><span style="color:gray; text-decoration:none;"><code>📂 alu_4bit ◔</code></span></td> 
+           <td>✧✧ Next: Arithmetic & Logic Core</td> 
       </tr> 
       <tr> <td><b>Comparator</b></td> 
            <td>⬜ Pending</td> 
