@@ -117,8 +117,8 @@ Verilog-Projects/
 
 > What's Next:
 
-✅ Carry Look Ahead Adder (4-bit) (RTL + Testbench + Simulation + Docs) <br>
-⬜ MUX (4:1)    `Coming Soon ⟳`
+✅ MUX (4:1) (RTL + Testbench + Simulation + Docs) <br>
+⬜ Decoder (3:8)    `Coming Soon ⟳`
 
 > Overview:
 <div align="center"> 
@@ -139,7 +139,7 @@ Verilog-Projects/
       </tr> 
       <tr> <td><b>Ripple Carry Adder (4-bit)</b></td> 
            <td>✅Complete</td> 
-           <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder ✪</a></td> 
+           <td><a href="./projects_basic/ripple_carry_adder">📂 ripple_carry_adder <span style="color:lightgreen;">✪</span></a></td> 
            <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Carry Look Ahead Adder (4-bit)</b></td> 
@@ -148,14 +148,14 @@ Verilog-Projects/
            <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Multiplexer (4:1)</b></td> 
-           <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;"><code>📂 mux_4to1 ◔</code></span></td> 
-           <td>✧✧ Next Milestone</td> 
+           <td>✅Complete</td> 
+           <td><a href="./projects_basic/mux_4to1" style="color:lightgreen;">📂 mux_4to1 ★★</a></td> 
+           <td>➣ RTL + Testbench + Simulation + Docs</td> 
       </tr> 
       <tr> <td><b>Decoder (3:8)</b></td> 
            <td>⬜ Pending</td> 
-           <td><span style="color:gray; text-decoration:none;">📂 decoder_3to8</span></td> 
-           <td>In Queue</td> 
+           <td><span style="color:yellow; text-decoration:none;"><code>📂 decoder_3to8  ◔</code></span></td> 
+           <td>✧✧ Next Milestone</td> 
       </tr> 
       <tr> <td><b>4-bit ALU</b></td> 
            <td>⬜ Pending</td> 
